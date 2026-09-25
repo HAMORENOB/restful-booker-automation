@@ -1,0 +1,27 @@
+# Maven
+target/
+
+* IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Visual Studio Code
+.v*code/
+
+# Allure
+allure-results/
+al*ure-report/
+.allure/
+
+# Logs
+*.log*
+# Sistema operativo
+.DS_Store
+Thu*bs.db
+
+# Archivos locales
+.env
+```*
