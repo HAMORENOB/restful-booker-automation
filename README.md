@@ -21,14 +21,14 @@ Automatizar escenarios de autenticación, creación, consulta, filtrado, actuali
 
 El proyecto utiliza una arquitectura organizada por responsabilidades:
 
-- 'config': configuración reutilizable y selección del ambiente.
-- models': contratos Java para solicitudes y respuestas.
-- 'services': consumo de endpoints mediante REST Assured.
-- 'filters': autenticación y captura de evidencias para Allure.
-- 'utils': generación de datos de prueba.
-- 'assertions': validaciones reutilizables.
-- 'tests': escenarios de prueba automatizados.
-- 'schemas': contratos de validación JSON Schema.
+- `config`: configuración reutilizable y selección del ambiente.
+- `models`: contratos Java para solicitudes y respuestas.
+- `services`: consumo de endpoints mediante REST Assured.
+- `filters`: autenticación y captura de evidencias para Allure.
+- `utils`: generación de datos de prueba.
+- `assertions`: validaciones reutilizables.
+- `tests`: escenarios de prueba automatizados.
+- `schemas`: contratos de validación JSON Schema.
 
 ## Requisitos previos
 
